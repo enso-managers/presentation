@@ -31,7 +31,8 @@ label {
   line-height: 2.4rem;
   margin-top: 1.2rem;
 } */
-.reveal section img {
+.dark .reveal section img,
+.light .reveal section img {
   max-width: 100%;
   max-height: 100%;
   border: none;
