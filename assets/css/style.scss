@@ -5,8 +5,7 @@
 
 @import "solarized/solarized.scss";
 
-h1,
-title.enso-normal {
+title {
     position:absolute;
     top:0;
     left:0;
@@ -16,8 +15,7 @@ title.enso-normal {
     line-height: 4rem;
 }
   @media (min-width: 768px) {
-    h1,
-	title.enso-normal {
+    title {
       font-size: 4rem;
       line-height: 5.6rem; 
     } 
