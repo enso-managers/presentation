@@ -64,28 +64,24 @@ label {
   margin-right: auto;
   text-align: center; }
 
-img.align-center,
-figure.align-center {
+img.align-center {
   display: block;
-  margin-bottom: .8rem;
-  margin-top: .8rem; }
-
-img.align-left,
-figure.align-left,
-img.align-right,
-figure.align-right,
-img.align-center,
-figure.align-center {
-  margin-bottom: 3.2rem;
-  margin-top: 3.2rem; }
-
+  margin: .8rem 0 .8rem 0; 
+}
 img.align-right,
 svg.align-right,
-figure.align-right {
-  margin: .8rem 0 .8rem 2.4rem; }
-
 img.align-left,
-svg.align-left,
-figure.align-left {
-  margin: .8rem 2.4rem .8rem 0; }
+svg.align-left {
+  margin: .8rem 0 .8rem 0; 
+}
+@media (min-width: 1024px) {
+  img.align-right,
+  svg.align-right {
+    margin-left: 2.4rem; }
+}
+@media (min-width: 1024px) {
+  img.align-left,
+  svg.align-left {
+    margin-right: 2.4rem; }
+}
 
