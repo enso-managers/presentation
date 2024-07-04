@@ -9,7 +9,6 @@ title {
     position:absolute;
     top:0;
     left:0;
-	padding: 2.4rem;
     color: #CD0000;
     font-size: 2.4rem;
     line-height: 4rem;
@@ -34,7 +33,7 @@ label {
 }
 img,
 figure {
-  border: none;
+  border: 0px;
 }
 /* borrowed from webslides */
 /*=== div.size-60, img.size-50, h1.size-40, p.size-30... === */
