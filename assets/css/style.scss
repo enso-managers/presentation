@@ -51,32 +51,33 @@ label {
   .size-30 {
     width: 30%; }
   .size-20 {
-    width: 20%; } }
+    width: 20%; } 
+}
 	
-.align-center {
+.enso-align-center {
   margin-left: auto;
   margin-right: auto;
   text-align: center; 
 }
-img.align-center {
+img.enso-align-center {
   display: block;
   margin: .8rem 0 .8rem 0; 
 }
-img.align-right,
-svg.align-right,
-img.align-left,
-svg.align-left {
+img.enso-align-right,
+svg.enso-align-right,
+img.enso-align-left,
+svg.enso-align-left {
   margin: .8rem 0 .8rem 0; 
 }
 @media (min-width: 1024px) {
-  img.align-right,
-  svg.align-right {
+  img.enso-align-right,
+  svg.enso-align-right {
     float: right;
     margin-left: 2.4rem; }
 }
 @media (min-width: 1024px) {
-  img.align-left,
-  svg.align-left {
+  img.enso-align-left,
+  svg.enso-align-left {
     float: left;
     margin-right: 2.4rem; }
 }
