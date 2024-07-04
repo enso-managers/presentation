@@ -17,16 +17,16 @@ kramdown:
 #  - jemoji
 
 ## personalize your slide show
-title:       reveal-jekyll
-author:      Thomas Friese
-description: Reveal.js for Jekyll with Solarized Color theme
+title:       test-presentation
+author:      OD
+description: Test Reveal.js for Jekyll with Solarized Color theme
 
 sass:
   style:     compressed
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     light
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
