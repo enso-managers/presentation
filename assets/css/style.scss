@@ -31,8 +31,8 @@ label {
   line-height: 2.4rem;
   margin-top: 1.2rem;
 }
-section img,
-section figure {
+.light .reveal section img,
+.dark .reveal section img {
   border: none;
 }
 /* borrowed from webslides */
